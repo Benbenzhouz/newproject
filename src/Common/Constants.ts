@@ -8,7 +8,10 @@ export const LogLevel = {
 	TRACE: 4,
 	ALL: 5
 };
-export const LogLevelToString: { [index: number]: string } = {
+
+const LogLevelToString = "a";
+	
+export LogLevelToString: { [index: number]: string } = {
 	0: "ERROR",
 	1: "WARN",
 	2: "INFO",
